@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
           ),
           Container(
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Colors.orange,
             ),
             child: Text('Drawing', textAlign: TextAlign.center,),
           ),
