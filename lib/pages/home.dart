@@ -8,6 +8,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:Text('Elitsa'),
+        titleTextStyle: TextStyle(
+          fontSize: 50,
+          color: Colors.black,
+          fontWeight: FontWeight.bold,
+        ),
         backgroundColor: Colors.yellow,
         centerTitle: true,
       ),
@@ -16,27 +21,48 @@ class HomePage extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(
-              color: Colors.pink,
+              color: Colors.amber,
             ),
-            child: Text('Pink', textAlign: TextAlign.center,),
-          ),
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.blue,
+            child: Text('Favourite color',
+            style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold,), textAlign: TextAlign.center,
             ),
-            child: Text('Drawing', textAlign: TextAlign.center,),
           ),
           Container(
             decoration: BoxDecoration(
               color: Colors.red,
             ),
-            child: Text('Reading', textAlign: TextAlign.center,),
+            child: Text('Pink',
+            style: TextStyle(fontSize: 40,), textAlign: TextAlign.center,
+            ),
           ),
           Container(
             decoration: BoxDecoration(
-              color: Colors.green,
+              color: Colors.amber,
             ),
-            child: Text('Gaming', textAlign: TextAlign.center,),
+            child: Text('Hobbies',
+            style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold,), textAlign: TextAlign.center,
+            ),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: Text('Drawing', 
+            style: TextStyle(fontSize: 40,), textAlign: TextAlign.center,),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: Text('Reading', 
+            style: TextStyle(fontSize: 40,), textAlign: TextAlign.center,),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: Text('Gaming', 
+            style: TextStyle(fontSize: 40,), textAlign: TextAlign.center,),
           )
         ],
         
