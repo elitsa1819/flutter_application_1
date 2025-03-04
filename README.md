@@ -1,16 +1,30 @@
 # flutter_application_1
 
-Description about Flutter
+## Introduction
+This project consist of a practice with Flutter. The application shows a name, favorite color and 3 hobbies. The purpose is practicing how text and boxes work in Flutter.
 
-## Getting Started
+## Installation
+Before you download this project make sure you have downloaded multiple things:
 
-This project is a starting point for a Flutter application.
+### Visual Studio Code
+For you to be able to open or edit this code you need to have either Visual Studio Code or any code editing software. If you want to edit codes with VS code you can download it by clicking this link: https://code.visualstudio.com/.
 
-A few resources to get you started if this is your first Flutter project:
+### Flutter
+Flutter is essential for editing mobile phone apps. You can get it by following these steps:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Go on this page: https://docs.flutter.dev/get-started/install
+2. Select Windows platform
+3. Select Android
+4. Follow the steps from this website: https://docs.flutter.dev/get-started/install/windows/mobile.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+When you are done downloading everything you have to prepare on which device you would want the project to open up on. You can select a device by following these steps:
+1. Go in your Command Palette. For that you can use the shortcut CTLR + Shift + P.
+2. In the Command Palette, type flutter.
+3. Select Flutter:Select device.
+4. Select any mobile emulator that you have downloaded. If you have connected your mobile device with an USB cable you select your mobile device.
+
+After selecting your device of choice, if you want to start the project you just select Start Debbuging, which you can select with the shortcut F5.
+
+## Contribution
+Everyone is free to contribute to the project if they want to practice coding with Flutter.
